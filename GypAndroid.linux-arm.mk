@@ -7,7 +7,7 @@ GYP_CONFIGURATION ?= Debug
 include $(LOCAL_PATH)/android_webview/All.target.linux-arm.mk
 include $(LOCAL_PATH)/android_webview/android_webview_common.target.linux-arm.mk
 include $(LOCAL_PATH)/android_webview/android_webview_pak.target.linux-arm.mk
-include $(LOCAL_PATH)/android_webview/libwebviewchromium.target.linux-arm.mk
+#include $(LOCAL_PATH)/android_webview/libwebviewchromium.target.linux-arm.mk
 include $(LOCAL_PATH)/android_webview/native/android_jar_jni_headers.target.linux-arm.mk
 include $(LOCAL_PATH)/android_webview/native/android_webview_native_jni.target.linux-arm.mk
 include $(LOCAL_PATH)/android_webview/native/cancellation_signal_android_jar_jni_headers.target.linux-arm.mk
